@@ -119,7 +119,7 @@ public class Task3 {
                     try {
                         obj.withdraw();
                     } catch (InsufficientBalanceException e) {
-                        System.out.println(e);
+                        System.out.println(e.getMessage());
                     }
 
                     break;
@@ -132,7 +132,7 @@ public class Task3 {
                     try {
                         obj.transfer();
                     } catch (InsufficientBalanceException e) {
-                        System.out.println(e);
+                        System.out.println(e.getMessage());
                     }
 
                     break;
