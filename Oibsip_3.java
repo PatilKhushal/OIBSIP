@@ -1,4 +1,4 @@
-package Task3;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -100,13 +100,13 @@ class BankAccount {
     }
 }
 
-public class Task3 {
+public class Oibsip_3 {
     private static void loginFunctions(BankAccount obj) {
         Scanner sc = new Scanner(System.in);
         int subChoice;
         do {
-            System.out.println("********** WELCOME " + obj.getName() + " **********");
-            System.out.println(
+            System.out.println("\n\n********** WELCOME " + obj.getName() + " **********");
+            System.out.print(
                     "1.Deposit 2.Withdraw 3.Check Balance 4.Transfer Funds 5.Transaction History 6.Exit\nEnter your choice :\t");
             subChoice = sc.nextInt();
 
@@ -166,7 +166,7 @@ public class Task3 {
                         System.out.println("No Customers Registered Yet");
                         break;
                     }
-                    System.out.print("Enter account number :\t");
+                    System.out.print("\nEnter account number :\t");
                     String accountNo = sc.next();
                     System.out.print("Enter username :\t");
                     String userName = sc.next();

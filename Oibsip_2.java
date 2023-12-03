@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class Task2 
+public class Oibsip_2 
 {
     final static int MAX = 100;
     static boolean play()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Guess number from 1 to " + Task2.MAX);    
+        System.out.println("Guess number from 1 to " + Oibsip_2.MAX);    
         int computer = (int) Math.round(Math.random() * 100);
         /* System.out.println(computer); */
         boolean flag = false;
         for(int i = 1; i < 11; i++)
         {
-            System.out.print("Enter your guess (1 to " + Task2.MAX + ") :\t");
+            System.out.print("Enter your guess (1 to " + Oibsip_2.MAX + ") :\t");
             int guess = sc.nextInt();
             if(guess == computer)
             {
