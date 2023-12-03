@@ -166,11 +166,11 @@ public class Task3 {
                         System.out.println("No Customers Registered Yet");
                         break;
                     }
-                    System.out.println("Enter account number :\t");
+                    System.out.print("Enter account number :\t");
                     String accountNo = sc.next();
-                    System.out.println("Enter username :\t");
+                    System.out.print("Enter username :\t");
                     String userName = sc.next();
-                    System.out.println("Enter password :\t");
+                    System.out.print("Enter password :\t");
                     String password = sc.next();
 
                     boolean flag = true;
